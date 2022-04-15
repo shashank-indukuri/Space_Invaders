@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.ForwardCompositeIterator">
+    <Position X="1" Y="3.25" Width="2.25" />
+    <Members>
+      <Method Name="GetChildNode" Hidden="true" />
+      <Method Name="GetParentNode" Hidden="true" />
+      <Method Name="GetSiblingNode" Hidden="true" />
+      <Method Name="PrivNextStep" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AgIAACACAAAAAQAAAACgAAAAAAAABAAAAAAAEAAAgAA=</HashCode>
+      <FileName>Composite\ForwardCompositeIterator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ReverseCompositeIterator">
+    <Position X="3" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgAAACACAAAAAQAAAACAAAAAAAAAAAAAACAAAAAAgAA=</HashCode>
+      <FileName>Composite\ReverseCompositeIterator.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pCurrent" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.BaseCompositeIterator">
+    <Position X="2.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAACAAAAAAAQAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Composite\BaseCompositeIterator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Component" Collapsed="true">
+    <Position X="7" Y="2.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.Component.Type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Composite\Component.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAYAgAgAAIABAAAAAABAAAAAAAAAAAEABA=</HashCode>
+      <FileName>Composite\Component.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GameObject" Collapsed="true">
+    <Position X="7" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQAAAAAAAQAAAAAAAAjAACAAAEIAAAABBiAAkABAA=</HashCode>
+      <FileName>GameObject\GameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Composite" Collapsed="true">
+    <Position X="6" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAACAAAAAQAgAAAAKABAAAAAAAAAAAAAAAAIAEABA=</HashCode>
+      <FileName>Composite\Composite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Leaf" Collapsed="true">
+    <Position X="8.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAQAAAAAACABAAAAAAAAAAAAAAAAAAEABA=</HashCode>
+      <FileName>Composite\Leaf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

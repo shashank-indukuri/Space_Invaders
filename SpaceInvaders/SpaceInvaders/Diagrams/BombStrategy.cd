@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.Bomb">
+    <Position X="1.75" Y="2.5" Width="1.5" />
+    <Members>
+      <Method Name="FetchBoundingBoxHeight" Hidden="true" />
+      <Method Name="MultiplySpriteScale" Hidden="true" />
+      <Method Name="Reset" Hidden="true" />
+      <Method Name="SetDelta" Hidden="true" />
+      <Method Name="SetPos" Hidden="true" />
+      <Method Name="VisitMissile" Hidden="true" />
+      <Method Name="VisitMissileGroup" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAAABABAAACQAABEAAAAAAAAAAAgAAAEABAAA=</HashCode>
+      <FileName>GameObject\Bomb\Bomb.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pFallStrategy" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.BombFallStrategy">
+    <Position X="6.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Bomb\BombFallStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.DaggerFall">
+    <Position X="4.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAIABAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Bomb\DaggerFall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.StraightFall">
+    <Position X="6.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAIABAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Bomb\StraightFall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ZigZagFall">
+    <Position X="9" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAIABAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Bomb\ZigZagFall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.CategoryBomb" Collapsed="true">
+    <Position X="1.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Bomb\CategoryBomb.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
