@@ -19,7 +19,7 @@ This project was built using these technologies.
 
 - C#
 - Visual Studio 2019 Enterprise
-- Perfose
+- Perforce
 - Azul GUI framework
 - Design Patterns
 
