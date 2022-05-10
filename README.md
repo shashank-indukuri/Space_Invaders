@@ -25,7 +25,7 @@ This project was built using these technologies.
 
 ## Features
 
-**Real-Time-Data-Driven**
+**Real-Time Data-Driven**
 
 **Two Player Mode**
 
